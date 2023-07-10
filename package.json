@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orkestral/venom.git"
+    "url": "git+https://github.com/raiomarco/venom.git"
   },
   "keywords": [
     "whatsapp",
@@ -59,7 +59,7 @@
   "author": "Orkestral",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/orkestral/venom/issues"
+    "url": "https://github.com/raiomarco/venom/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -74,7 +74,7 @@
     "README.md",
     "SECURITY.md"
   ],
-  "homepage": "https://github.com/orkestral/venom#readme",
+  "homepage": "https://github.com/raiomarco/venom#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-angular": "^17.0.3",
