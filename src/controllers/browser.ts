@@ -299,7 +299,7 @@ export async function initBrowser(
       } else {
         const browser = await puppeteer.launch({
           executablePath,
-          headless: 'new',
+          headless: true,
           args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
 
@@ -337,7 +337,8 @@ export async function initBrowser(
     }
 
     const launchOptions = {
-      headless: options.headless,
+      // headless: options.headless,
+      headless: true,
       devtools: options.devtools,
       args: options.browserArgs ?? puppeteerConfig.chromiumArgs,
       ...options.puppeteerOptions,
